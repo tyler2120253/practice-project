@@ -1,0 +1,115 @@
+.content {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    background: url("http://reserve.louie.land/Wallpapers/Super%20Mario%20Bros./Super%20Mario%20Bros.%20-%20Desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: darkgreen;
+}
+
+.box1 {
+    width: 90%;
+    height: 300px;
+    color: black;
+    background: gray;
+    border-radius: 50px;
+    margin: auto;
+    background: gray;
+    color: black;
+    text-align-last: center
+}
+
+.box2 {
+    width: 90%;
+    height: 300px;
+    color: black;
+    background: gray;
+    border-radius: 50px;
+    margin: auto;
+    background: gray;
+    color: black;
+    text-align-last: center
+}
+
+.box3 {
+    width: 90%;
+    height: 300px;
+    color: black;
+    background: gray;
+    border-radius: 50px;
+    margin: auto;
+    background: gray;
+    color: black;
+    text-align-last: center
+}
+
+img {
+    height: 200px
+}
+
+marquee {
+    font-size: 40px;
+    font-family: fantasy;
+    color: darkgreen;
+    align-content: center;
+    clear:none;
+}
+
+.image1 {
+    width: 150px;
+    align-content: center;
+    padding-top: 30px
+}
+
+.image2 {
+    width: 150px;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.image3 {
+    width: 194px;
+    align-content: center;
+    padding-top: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+
+div {
+    overflow-y: hidden;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: cursive;
+    color: darkgreen;
+}
+
+.total {
+    text-align: center;
+    clear: both;
+    padding: 20px;
+}
+.dit{
+    width: 100px
+}

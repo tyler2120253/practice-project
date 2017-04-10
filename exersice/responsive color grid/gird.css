@@ -1,0 +1,37 @@
+div{
+    border-width: 10px;
+    border-spacing: 30px;
+    border-style: solid;
+    display: inline-block;
+    border-color: white;
+}
+.box1{
+    width: 98%;
+    height: 100px;
+    background-color: pink;
+}
+.box2{
+    width:23%;
+    height: 100px;
+    background-color: hotpink;
+}
+.box3{
+    width:50%;
+    height: 50px;
+    background-color: aqua;
+}
+.box4{
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+body{
+    padding: 0;
+    margin-left: 20px;
+    width: 100%;
+    
+}
+@media(max-width: 100px){
+    nav.desktop-view{
+        display:inline;}

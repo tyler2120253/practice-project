@@ -1,0 +1,21 @@
+.box {
+    background-color:orchid;
+    height: 100px;
+    border: 10px solid white;
+    
+}
+.box2{
+    background-color: greenyellow;
+    height: 100px;
+     border:10px solid white;
+}
+.box3{
+    background-color: crimson;
+    height: 100px;
+     border: 10px solid white;
+}
+.box4{
+    background-color: chartreuse;
+    height: 100px;
+    border: 10px solid white;
+}

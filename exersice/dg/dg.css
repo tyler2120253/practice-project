@@ -1,0 +1,10 @@
+.box-dj{
+    height: 500px;
+    max-height: 500px;
+    width: 100%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
