@@ -1,0 +1,58 @@
+{
+    "appetizers": [
+        {
+            "name": "fries",
+            "cost": 5000,
+            "istasty": true,
+            "ingredients": ["potato", "salt", "oil"]
+        },
+        {
+            "name": "pizza",
+            "cost": 8000,
+            "istasty": true,
+            "ingredients": ["bread", "vegetable", "cheez"]
+
+        },
+        {
+            "name": "falafel",
+            "cost": 1500,
+            "istasty": true,
+            "ingredients": ["falfel", "tarator", "vegeteble"]
+
+        }
+        ],
+
+    "cold sandwiches": [
+        {
+            "name": "martadela",
+            "cost": 3000,
+            "istasty": true,
+            "ingredients": ["martedela", "vegetable", "mayonez"]
+
+          },
+        {
+            "name": "cheez",
+            "cost": 3000,
+            "istasty": true,
+            "ingredients": ["cheez", "vegetable", "bread"]
+
+          }
+
+      ],
+
+    "deserts": [
+        {
+            "name": "icecream",
+            "cost": 3000,
+            "istasty": true,
+            "ingredients": ["chocolate", "bannana", "fosto2"]
+
+        },
+        {
+            "name": "bananna split",
+            "cost": 3000,
+            "istasty": true,
+            "ingredients": ["banna", "chocolate", "frez"]
+        }
+    ]
+}

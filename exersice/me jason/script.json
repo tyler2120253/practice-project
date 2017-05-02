@@ -1,0 +1,25 @@
+[
+    {
+        "name": "mazen",
+        "manager": false,
+        "age": 26,
+        "hobbie": ["acting", "danicing", "programing"],
+        "addres": {
+            "city": "beirut",
+            "area": "sfair"
+        }
+
+},
+    {
+        "name": "wael",
+        "manager": false,
+        "age": 24,
+        "hobbie": ["acting", "game=ing", "programing"],
+        "addres": {
+            "city": "beirut",
+            "area": "7ara"
+        }
+
+    }
+
+]

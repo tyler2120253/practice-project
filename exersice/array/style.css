@@ -1,0 +1,16 @@
+.logo{
+    text-align: center;
+    
+    color: blue
+}
+ul{
+    list-style-type:none;
+    margin: 0px;
+    
+    
+}
+li{
+    margin-top: 5px;
+    margin-left: 5px
+    
+}
