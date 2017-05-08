@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="mainctrl">
+	<div class="container">
+		<h1>
+			<center>the angular table</center>
+		</h1>
+		<div class="row">
+			<div class="col-md-10 col-sm-offset-1">
+
+
+				<div class="form-group">
+					<lable>First name</lable>
+					<input class="form-control" type="text" ng-model="first">
+				</div>
+				<div class="form-group">
+					<lable>Last name</lable>
+					<input class="form-control" type="text" ng-model="last">
+				</div>
+				<div class="form-group">
+					<lable>Email</lable>
+					<input class="form-control" type="text" ng-model="email">
+				</div>
+				<div class="form-group">
+					<lable>Phone</lable>
+					<input class="form-control" type="text" ng-model="phone">
+				</div>
+				<div class="form-group">
+					<lable>Place of Birth</lable>
+					<input class="form-control" type="text" ng-model="birth">
+				</div>
+				<div class="form-group">
+					<lable>favorite food</lable>
+					<input class="form-control" type="text" ng-model="food">
+				</div>
+				<div class="form-group">
+					<lable>infromation</lable>
+					<textarea class="form-control" type="text" ng-model="info"></textarea>
+				</div>
+
+
+				<div id="do"><button class="form-controll" type="text" ng-click="submit()">submit</button></div>
+				<div >
+					<table class="table">
+						<tr ng-repeat="person in arr">
+							<th>
+								<td>{{person.firstname}}</td>
+								<td>{{person.lastname}}</td>
+								<td>{{person.email}}</td>
+								<td>{{person.phone}}</td>
+								<td>{{person.birth}}</td>
+								<td>{{person.favorite}}</td>
+								<td>{{person.information}}</td>
+							</th>
+
+						</tr>
+					</table>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+	<script src="app.js"></script>
+
+</body>
+
+</html>
