@@ -16,4 +16,5 @@ app.controller('mainctrl', function ($scope) {
 		console.log($scope.arr)
 	}
 
+	
 })
