@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+<head>
+	<meta charset="UTF-8">
+	<title>hit list</title>
+	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="mainctrl">
+	<input ng-model="button" placeholder="click">
+	<button ng-click="hitlist()">click me</button>
+	<div ng-repeat="item in arr" >
+		 <img ng-src ={{item.image}}>
+		 <P>{{item.name}}</P>
+	</div>
+   
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
